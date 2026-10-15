@@ -1,0 +1,6 @@
+{
+  "name": "SlideMorph - Academic Slide Translation & OCR Inpainting Engine",
+  "description": "High-contrast precision platform for decomposing academic lecture slides, extracting LaTeX and vector diagrams via OCR, and synthesizing Royal Society Thai scholarly translations with layout inpainting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

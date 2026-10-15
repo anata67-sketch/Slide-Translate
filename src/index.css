@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pure-black: #09090b;
+  --color-graphite-dark: #18181b;
+  --color-zinc-charcoal: #27272a;
+  --color-zinc-muted: #71717a;
+  --color-zinc-border: #a1a1aa;
+  --color-zinc-subtle: #e4e4e7;
+  --color-pure-white: #ffffff;
+  --color-surface-dim: #f4f4f5;
+  --color-surface: #fbf8ff;
+  --color-surface-container-highest: #e3e1ec;
+  --color-surface-container-high: #e8e7f1;
+  --color-surface-container: #eeedf7;
+  --color-surface-container-low: #f4f2fd;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #1a1b22;
+  --color-on-surface-variant: #47464a;
+  --color-primary: #000000;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1c1b1d;
+  --color-on-primary-container: #858386;
+  --color-secondary: #5f5e61;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e4e1e5;
+  --color-on-secondary-container: #656467;
+  --color-tertiary: #000000;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #1a1b22;
+  --color-on-tertiary-container: #83838c;
+  --color-outline: #78767b;
+  --color-outline-variant: #c8c5ca;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 0.75rem;
+  --spacing-space-lg: 1.25rem;
+  --spacing-space-xl: 2rem;
+  --spacing-margin: 1rem;
+  --spacing-margin-desktop: 1.5rem;
+  --spacing-gutter: 1rem;
+  --spacing-gutter-desktop: 1.5rem;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Sarabun', system-ui, sans-serif;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f4f4f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a1a1aa;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #71717a;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga';
+}
+
+/* Monochromatic Academic Precision Typography Classes */
+.font-headline-xl {
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}
+
+.font-headline-lg {
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.font-headline-md {
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.015em;
+  font-weight: 500;
+}
+
+.font-title-sm {
+  font-family: 'Geist', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.font-body-lg {
+  font-family: 'Inter', 'Sarabun', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: 'Inter', 'Sarabun', system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.font-body-sm {
+  font-family: 'Inter', 'Sarabun', system-ui, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.font-label-md {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+.font-label-sm {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.025em;
+  font-weight: 500;
+}
